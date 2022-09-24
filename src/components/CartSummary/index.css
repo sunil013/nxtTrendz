@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.total {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #616e7c;
+  font-weight: 500;
+  align-self: flex-end;
+}
+.total-price {
+  color: #171f46;
+  font-weight: 800;
+  font-size: 20px;
+}
+.items-count {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 0px;
+  align-self: flex-end;
+}
+.checkout-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  font-family: Roboto;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 35px;
+}
+.total-payments {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .total-payments {
+    width: 30%;
+    align-self: flex-end;
+  }
+  .total {
+    font-size: 22px;
+    align-self: flex-start;
+  }
+  .total-price {
+    font-size: 24px;
+  }
+  .items-count {
+    font-size: 18px;
+    align-self: flex-start;
+  }
+}
