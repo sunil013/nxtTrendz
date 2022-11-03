@@ -136,3 +136,7 @@
   line-height: 16px;
   color: #ff0b37;
 }
+
+.login-name-pass {
+  font-family: 'Roboto';
+}
